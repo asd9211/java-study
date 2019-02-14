@@ -9,6 +9,8 @@ public class ThreeSixNine {
 				System.out.println("짝");
 			} else {
 				System.out.println(i);
+			
+			
 			}
 		}
 	}
