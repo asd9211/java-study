@@ -4,8 +4,6 @@ public class ThisExam2 {
 	int num1;
 	String str;
 	
-	 ThisExam2(){}
-	
 	ThisExam2(int num1, String str){
 		this.num1 = num1;
 		this.str = str;
