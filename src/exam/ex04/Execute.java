@@ -12,8 +12,7 @@ public class Execute {
 		Action c = new Cat();
 		Action p = new Person();
 		
-		
-		space(c);
+	space(c);
 		space(p);
 	}
 }
