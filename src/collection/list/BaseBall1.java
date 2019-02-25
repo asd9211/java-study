@@ -17,7 +17,6 @@ public class BaseBall1 {
 			}
 		}
 
-
 		int bCnt = 0;
 		int sCnt = 0;
 		Scanner scan = new Scanner(System.in);
