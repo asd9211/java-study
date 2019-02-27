@@ -10,7 +10,7 @@ public class ListExam2 {
 			numList.add(i);
 		}
 		for(int i=0;i<10;i++) {
-			System.out.println(numList.get(i)); //get(i) = 인덱스 넘버
+			System.out.println(numList.get(i)); //get(i) = 인덱스 i넘버의 값을 출력
 		}
 	}
 }

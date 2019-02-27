@@ -35,6 +35,7 @@ public class DogList {
 		for(int i = 0; i<10; i++) {
 			Dog d = b.get(i);
 			System.out.println(d.getName());
+			System.out.println(d.getAge());
 			
 		}
 		

@@ -24,8 +24,8 @@ public class BaseBall1 {
 			bCnt = 0;
 			sCnt = 0;
 			System.out.println("숫자 ㄱㄱ");
-
 			String[] str = scan.nextLine().split(",");
+			
 			int[] nums = new int[3];
 			for (int i = 0; i < str.length; i++) {
 				nums[i] = Integer.parseInt(str[i]);
