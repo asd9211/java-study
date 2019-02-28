@@ -42,9 +42,10 @@ public class View {
 							System.out.print("내용 : ");
 							String content = scan.nextLine();
 							bs.insertBoard(title, content);
+							
 						}else if("2".equals(cmd)){
 							System.out.println("삭제글 번호 : ");
-							int num = Integer.parseInt(scan.nextLine());
+							String num = scan.nextLine();
 							
 							bs.deleteBoard(num);
 							
@@ -56,9 +57,8 @@ public class View {
 							String titlemodify = scan.nextLine();
 							System.out.println("내용 : ");
 							String contentmodify = scan.nextLine();
-						
-							
-							bs.updateBoard(titlemodify, contentmodify);
+													
+							bs.updateBoard(titlemodify, contentmodify,num);
 						}
 					} while (!"q".equals(cmd)); // do 부분에 while 바로 떄려박아도 됨.
 				} else {

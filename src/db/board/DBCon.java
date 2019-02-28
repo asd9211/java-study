@@ -33,6 +33,7 @@ public class DBCon {
 			}
 		}
 		con = null; // 전화기를 없애버린것.
+		System.out.println(con);
 	}
 	
 	public static void main(String[] args) {
