@@ -60,7 +60,7 @@ public class View {
 													
 							bs.updateBoard(titlemodify, contentmodify,num);
 						}
-					} while (!"q".equals(cmd)); // do 부분에 while 바로 떄려박아도 됨.
+					} while (!"q".equals(cmd)); // do 부분에 while 바로 넣어도 됨.
 				} else {
 					System.out.println("비밀번호가 틀렸습니다.");
 				}

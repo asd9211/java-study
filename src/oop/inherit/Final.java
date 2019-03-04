@@ -8,6 +8,6 @@ public class Final {
 	public static void main(String[] args) {
 		Final f = new Final();
 		System.out.println(f.num);
-		f.num=3; //변수는 final때문에 고정되어 있어서 바꿀수없음.
+		//f.num=3; //변수는 final때문에 고정되어 있어서 바꿀수없음.
 	}
 }
