@@ -10,7 +10,6 @@ public class Execute {
 		UserService us = new UserService();
 		UserInfoVO uivo = new UserInfoVO();
 		uivo.setUiId("kildong");
-		uivo.setUiName("이병건");
 		List<UserInfoVO> uiList = us.selectUser(uivo);
 		System.out.println(uiList);
 	}
