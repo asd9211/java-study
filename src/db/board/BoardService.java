@@ -7,13 +7,13 @@ import java.sql.SQLException;
 public class BoardService {
 
 	public void selectBoard() {
-		String sql = "select * from board_info";
+		String sql = "select * from class_info";
 		try {
 			PreparedStatement ps = DBCon.getCon().prepareStatement(sql);
 			ResultSet rs = ps.executeQuery();
 			System.out.println("제목");
 			while (rs.next()) {
-				System.out.println(rs.getString("bi_title"));
+				System.out.println(rs.getString("ci_num"));
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block

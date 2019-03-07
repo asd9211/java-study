@@ -34,7 +34,7 @@ public class View {
 						System.out.println("원하시는 번호를 눌러주세요.");
 						System.out.println(("번호 : "));
 						cmd = scan.nextLine();
-						if ("3".contentEquals(cmd)) {
+						if ("3".equals(cmd)) {
 							bs.selectBoard();
 						}else if("1".equals(cmd)){
 							System.out.print("제목 : ");
